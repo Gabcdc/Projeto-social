@@ -8,7 +8,7 @@
 html body{
     height: 100vh;
     width: 100vw;
-    background:url('../projetosocial/imagens/fundo-madeira.jpg') no-repeat top center ;
+    background:url('../imagens/fundo-madeira.jpg') no-repeat top center ;
     background-size:cover ;
     background-attachment: fixed;
 }
@@ -21,7 +21,7 @@ section#telefone{
     position: absolute; 
     height: 627px;
     width: 311px;
-    background:url('../projetosocial/imagens/frame-iphone.png') no-repeat ;
+    background:url('../imagens/frame-iphone.png') no-repeat ;
     transform: translate(-50%, -50%);
     top:50% ;
     left:50% ;
@@ -48,5 +48,5 @@ section#redes-sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.633);
     transform: translate(-5px, -5px);
     box-shadow:5px 5px 10px rgba(0, 0, 0, 0.385) ;
-    transition: transform 0.3s, border 0.5s;
+    transition: transform 0.3s, border 0.2s;
 }
