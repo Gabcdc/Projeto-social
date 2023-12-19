@@ -29,3 +29,11 @@ section#telefone{
 
 
 }
+iframe#tela{
+    position:relative;
+    width: 263px;
+    height: 467px;
+    top:82px;
+    left:24px;
+
+}
