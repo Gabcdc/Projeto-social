@@ -25,15 +25,28 @@ section#telefone{
     transform: translate(-50%, -50%);
     top:50% ;
     left:50% ;
-    
-
 
 }
 iframe#tela{
-    position:relative;
-    width: 263px;
-    height: 467px;
-    top:82px;
-    left:24px;
-
+    position: relative;
+    width: 264px;
+    height: 469px;
+    top: 81px;
+    left: 24px;
+}
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    margin: 10px;
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.633);
+    transform: translate(-5px, -5px);
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.385) ;
+    transition: transform 0.3s, border 0.5s;
 }
